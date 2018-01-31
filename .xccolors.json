@@ -1,0 +1,16 @@
+{
+    "Assertion failed": "ff990000:0:b",
+    "PCM:": "ff502768:0:b",
+    "Sake:": "ff622768:0:b",
+    "CommunicatorsGroup:": "ff17353d",
+    "CommunicatorsReadingSession:": "ff17353d",
+    "ServiceCommunicator:": "ff17353d",
+    "IDS": "ff223456",
+    "Value written for service": "0:FF444444:i",
+    "Value updated for service": "0:FF444444:i",
+    "Writing service": "0:FF444444:i",
+    "Notification value updated for service": "0:FF444444:i",
+    "Reading service ": "0:FF444444:i",
+    "Discovered services": "0:FF444444:i",
+    "Discovered characteristics": "0:FF444444:i"
+}

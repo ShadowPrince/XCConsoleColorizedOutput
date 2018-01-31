@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BE1D73620220DBC00575F6A /* CCHMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1D73520220DBC00575F6A /* CCHMain.m */; };
+		3BE1D73720220DFF00575F6A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1D72E20220CC500575F6A /* Info.plist */; };
+		3BE1D73920220E3800575F6A /* ConsoleColorizedHighlight.xcplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BE1D72B20220CC500575F6A /* ConsoleColorizedHighlight.xcplugin */; };
+		3BE1D73C20220EB300575F6A /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1D73A20220EB300575F6A /* JRSwizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BE1D73820220E2F00575F6A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+			dstSubfolderSpec = 0;
+			files = (
+				3BE1D73920220E3800575F6A /* ConsoleColorizedHighlight.xcplugin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BE1D72B20220CC500575F6A /* ConsoleColorizedHighlight.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsoleColorizedHighlight.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE1D72E20220CC500575F6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE1D73420220DBC00575F6A /* CCHMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCHMain.h; sourceTree = "<group>"; };
+		3BE1D73520220DBC00575F6A /* CCHMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCHMain.m; sourceTree = "<group>"; };
+		3BE1D73A20220EB300575F6A /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JRSwizzle.m; path = ConsoleColorizedHighlight/JRSwizzle.m; sourceTree = "<group>"; };
+		3BE1D73B20220EB300575F6A /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JRSwizzle.h; path = ConsoleColorizedHighlight/JRSwizzle.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BE1D72820220CC500575F6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BE1D72220220CC500575F6A = {
+			isa = PBXGroup;
+			children = (
+				3BE1D73B20220EB300575F6A /* JRSwizzle.h */,
+				3BE1D73A20220EB300575F6A /* JRSwizzle.m */,
+				3BE1D72D20220CC500575F6A /* ConsoleColorizedHighlight */,
+				3BE1D72C20220CC500575F6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BE1D72C20220CC500575F6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1D72B20220CC500575F6A /* ConsoleColorizedHighlight.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BE1D72D20220CC500575F6A /* ConsoleColorizedHighlight */ = {
+			isa = PBXGroup;
+			children = (
+				3BE1D72E20220CC500575F6A /* Info.plist */,
+				3BE1D73420220DBC00575F6A /* CCHMain.h */,
+				3BE1D73520220DBC00575F6A /* CCHMain.m */,
+			);
+			path = ConsoleColorizedHighlight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BE1D72A20220CC500575F6A /* ConsoleColorizedHighlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BE1D73120220CC500575F6A /* Build configuration list for PBXNativeTarget "ConsoleColorizedHighlight" */;
+			buildPhases = (
+				3BE1D72720220CC500575F6A /* Sources */,
+				3BE1D72820220CC500575F6A /* Frameworks */,
+				3BE1D72920220CC500575F6A /* Resources */,
+				3BE1D73820220E2F00575F6A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsoleColorizedHighlight;
+			productName = ConsoleColorizedHighlight;
+			productReference = 3BE1D72B20220CC500575F6A /* ConsoleColorizedHighlight.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BE1D72320220CC500575F6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vasyl Horbachenko";
+				TargetAttributes = {
+					3BE1D72A20220CC500575F6A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3BE1D72620220CC500575F6A /* Build configuration list for PBXProject "ConsoleColorizedHighlight" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BE1D72220220CC500575F6A;
+			productRefGroup = 3BE1D72C20220CC500575F6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BE1D72A20220CC500575F6A /* ConsoleColorizedHighlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BE1D72920220CC500575F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE1D73720220DFF00575F6A /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BE1D72720220CC500575F6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE1D73C20220EB300575F6A /* JRSwizzle.m in Sources */,
+				3BE1D73620220DBC00575F6A /* CCHMain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BE1D72F20220CC500575F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3BE1D73020220CC500575F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3BE1D73220220CC500575F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8R3KLAP3JW;
+				INFOPLIST_FILE = ConsoleColorizedHighlight/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = net.shdpw.ConsoleColorizedHighlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		3BE1D73320220CC500575F6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8R3KLAP3JW;
+				INFOPLIST_FILE = ConsoleColorizedHighlight/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = net.shdpw.ConsoleColorizedHighlight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BE1D72620220CC500575F6A /* Build configuration list for PBXProject "ConsoleColorizedHighlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE1D72F20220CC500575F6A /* Debug */,
+				3BE1D73020220CC500575F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE1D73120220CC500575F6A /* Build configuration list for PBXNativeTarget "ConsoleColorizedHighlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE1D73220220CC500575F6A /* Debug */,
+				3BE1D73320220CC500575F6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BE1D72320220CC500575F6A /* Project object */;
+}

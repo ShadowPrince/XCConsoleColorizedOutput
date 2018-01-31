@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2018 Vasyl Horbachenko. All rights reserved.</string>
+	<key>XC4Compatible</key>
+	<true/>
+	<key>XC5Compatible</key>
+	<true/>
+	<key>XCGCReady</key>
+	<true/>
+	<key>XCPluginHasUI</key>
+	<false/>
+	<key>DVTPlugInCompatibilityUUIDs</key>
+	<array>
+		<string>B395D63E-9166-4CD6-9287-6889D507AD6A</string>
+		<string>C3998872-68CC-42C2-847C-B44D96AB2691</string>
+		<string>E0A62D1F-3C18-4D74-BFE5-A4167D643966</string>
+		<string>DF11C142-1584-4A99-87AC-1925D5F5652A</string>
+		<string>CA351AD8-3176-41CB-875C-42A05C7CDEC7</string>
+	</array>
+	<key>NSPrincipalClass</key>
+	<string></string>
+</dict>
+</plist>
