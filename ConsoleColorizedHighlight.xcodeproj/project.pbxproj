@@ -9,22 +9,8 @@
 /* Begin PBXBuildFile section */
 		3BE1D73620220DBC00575F6A /* CCHMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1D73520220DBC00575F6A /* CCHMain.m */; };
 		3BE1D73720220DFF00575F6A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BE1D72E20220CC500575F6A /* Info.plist */; };
-		3BE1D73920220E3800575F6A /* ConsoleColorizedHighlight.xcplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BE1D72B20220CC500575F6A /* ConsoleColorizedHighlight.xcplugin */; };
 		3BE1D73C20220EB300575F6A /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1D73A20220EB300575F6A /* JRSwizzle.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		3BE1D73820220E2F00575F6A /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "~/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
-			dstSubfolderSpec = 0;
-			files = (
-				3BE1D73920220E3800575F6A /* ConsoleColorizedHighlight.xcplugin in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3BE1D72B20220CC500575F6A /* ConsoleColorizedHighlight.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsoleColorizedHighlight.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,7 +70,6 @@
 				3BE1D72720220CC500575F6A /* Sources */,
 				3BE1D72820220CC500575F6A /* Frameworks */,
 				3BE1D72920220CC500575F6A /* Resources */,
-				3BE1D73820220E2F00575F6A /* CopyFiles */,
 			);
 			buildRules = (
 			);
